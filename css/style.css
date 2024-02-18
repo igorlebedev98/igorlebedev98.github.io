@@ -489,3 +489,32 @@ h1, h2, h3, h4, h5{
     position:absolute;
 }
 
+
+
+
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+
+/*  4   */
+
+th, td {
+    padding: 10px;
+    border: 2px solid burlywood;
+    text-align: center;
+}
+tbody tr:nth-child(odd) {
+    background-color: wheat;
+}
+
+tbody tr:nth-child(even) {
+    background-color: darkgoldenrod;
+}
+
+
+
+
+
