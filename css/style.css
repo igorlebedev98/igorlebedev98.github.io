@@ -158,6 +158,14 @@ h1, h2, h3, h4, h5{
 
 }
 
+.slider__four{
+
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30% 30px;
+}
+
+
 .slider__button{
     display: inline-block;
     vertical-align: top;
