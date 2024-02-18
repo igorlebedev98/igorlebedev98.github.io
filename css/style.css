@@ -161,9 +161,9 @@ h1, h2, h3, h4, h5{
 .slider__button{
     display: inline-block;
     vertical-align: top;
-    border: 2px solid white;
+    border: 2px solid burlywood;
     padding: 10px 15px;
-    color: white;
+    color: burlywood;
     text-transform: uppercase;
     font-size: 16px;
     font-weight: bold;
