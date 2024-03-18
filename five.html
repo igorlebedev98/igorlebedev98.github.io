@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru"><head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/assets/css/lab_five.css">
+    <link rel="stylesheet" href="./assets/css/pic.css">
+    <link rel="SHORTCUT ICON" href="./icon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <title>Lab 5</title>
+</head>
+<body class="body">
+<div class="main">
+    <header class="header">
+        <div class="logo">
+            My website
+        </div>
+    </header>
+    <div class="conteiner">
+
+        <div class="content">
+            <h1 class="h1">Можно собрать картинку<br>в любом месте</h1>
+            <div class="game__box">
+                <div id="field" ondrop="drop(event)">
+                    <div id="head" onmousedown="onMouseDown(event,this)" style="rotate: 310deg; top: 473.5px; left: 557.8px;"></div>
+                    <div id="chest" onmousedown="onMouseDown(event,this)" style="rotate: 110deg; top: 468.5px; left: 1131.8px;"></div>
+                    <div id="leash" onmousedown="onMouseDown(event,this)" style="rotate: 120deg; top: 366.5px; left: 702.8px;"></div>
+                    <div id="collar" onmousedown="onMouseDown(event,this)" style="rotate: 85deg; top: 603.5px; left: 882.8px;"></div>
+                    <div id="croup" onmousedown="onMouseDown(event,this)" style="rotate: 30deg; top: 238.5px; left: 702.8px;"></div>
+                    <div id="ball" onmousedown="onMouseDown(event,this)" style="rotate: 110deg; top: 492.5px; left: 731.8px;"></div>
+                    <div id="tail" onmousedown="onMouseDown(event,this)" style="rotate: 355deg; top: 175.5px; left: 1020.8px;"></div>
+                </div>
+                <div class="example">
+                    <h4>Пример собранной картинки</h4>
+                    <img src="assets/images/parts/example.png">
+                    <abutton class = "button" onclick="onLoad()">Сначала</abutton>
+
+                    <p id="head_chest" class="unchecked"></p>
+                    <p id="chest_croup" class="unchecked"></p>
+                    <p id="croup_tail" class="unchecked"></p>
+                    <p id="collar_head" class="unchecked"></p>
+                    <p id="leash_collar" class="unchecked"></p>
+                    <p id="ball_chest" class="unchecked"></p>
+                    <p id="degree_indicator"></p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<script src="move.js"></script>
+
+</body></html>
