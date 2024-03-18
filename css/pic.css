@@ -1,0 +1,91 @@
+.game__box {
+    display: flex;
+    min-width: 1000px;
+    min-height: 500px;
+    flex-direction: row;
+    justify-content: center;
+    resize: none;
+}
+
+#field {
+    display: flex;
+    min-width: 300px;
+    border: 3px solid burlywood;
+    flex: 1 0 25%;
+}
+
+.example {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border: 1px solid burlywood;
+    border-left: none;
+}
+
+.h1 {
+    text-align: center;
+    font-family: cursive;
+    font-size: x-large;
+}
+
+img {
+    width: fit-content;
+    height: fit-content;
+}
+
+#head,#chest,#leash,#collar,#croup,#ball,#tail {
+    position: absolute;
+}
+
+
+.checked, .unchecked {
+    display: inline-flex;
+    height: 20px;
+    margin-right: auto;
+    font-size: small;
+    align-items: center;
+   opacity: 0;
+}
+
+#head {
+    background: url("../images/parts/head.png");
+    width: 45px;
+    height: 30px;
+}
+
+#chest {
+    background: url("../images/parts/chest.png");
+    width: 58px;
+    height: 47px;
+}
+
+#leash {
+    background: url("../images/parts/leash.png");
+    width: 94px;
+    height: 58px;
+}
+
+#collar {
+    background: url("../images/parts/collar.png");
+    width: 36px;
+    height: 29px;
+}
+
+#croup {
+    background: url("../images/parts/croup.png");
+    width: 71px;
+    height: 59px;
+}
+
+#ball {
+    background: url("../images/parts/ball.png");
+    width: 43px;
+    height: 44px;
+}
+
+#tail {
+    background: url("../images/parts/tail.png");
+    width: 69px;
+    height: 22px;
+}
+
