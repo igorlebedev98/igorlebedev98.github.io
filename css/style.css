@@ -522,6 +522,18 @@ tbody tr:nth-child(even) {
 }
 
 
-
+footer
+{
+    font-size: 20px;
+    display: flex;
+    overflow: hidden;
+    background-color: burlywood;
+    width: 100%;
+    min-height: 100px;
+    position: static;
+    border-top: burlywood 3px solid;
+    flex-direction: column;
+    text-align: center;
+}
 
 
